@@ -1,0 +1,94 @@
+﻿     <!doctype html>
+<head>
+	<link href="layoutimg.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sarabun&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+		<style>
+	.mySlides {display:none;
+		height:500px;}
+		</style>
+</head>
+
+<body style="background-color:#FFC400;">
+
+	<div class="topnav">
+ 	 <a class="active" href="home.html" style="float: left;">หน้าหลัก</a>
+	  <a href="image.html" style="float: left;">รูปแบบที่1</a>
+	 <a href="media1.html" style="float: left;">รูปแบบที่2</a>
+  	<h3 align="center" style="color:#FFF;">อาหารเพื่อสุขภาพ</p>
+	</div>
+
+	<div class="container_img">
+ 		 <header class="header">
+       <marquee scorllamount="30 " bgcolor="yellow">
+          อาหารคลีน (Clean Food) คือ อาหารที่ไม่ผ่านการปรุงแต่งด้วยสารเคมีต่าง ๆ หรือผ่านการแปรรูปน้อยที่สุดนั่นเอง อาหารเหล่านี้จะเป็นอาหารที่สดสะอาดไม่ผ่านกระบวนการหมักดองหรือปรุงรสใด ๆ มากจนเกินไป เช่น เค็มจัดหรือหวานจัด เป็นต้น
+        </marquee>  
+     <img src="image/header.jpg" width="100%" height="180px">
+       <center><h1>ประมวลภาพ</h1></center>
+  		</header>
+  		
+  		<section class="main"  height="3000" width="900">
+		<br><br>
+	<div class="margin" style="max-width:800px">
+  <img class="mySlides" src="image2/b1.jpg" style="width:100%">
+  <img class="mySlides" src="image2/b2.jpg" style="width:100%">
+  <img class="mySlides" src="image2/b3.jpg" style="width:100%">
+  <img class="mySlides" src="image2/bad1.jpg" style="width:100%">
+  <img class="mySlides" src="image2/pic1.jpg" style="width:100%">
+  <img class="mySlides" src="image2/pic2.jpg" style="width:100%">
+  <img class="mySlides" src="image2/pic3.jpg" style="width:100%">
+  <img class="mySlides" src="image2/pic4.jpg" style="width:100%">
+</div>
+
+<div style="text-align:center;">
+  <div style="margin-top:16px;margin-bottom:16px">
+    <button class="button" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="button grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+  <button class="button demo" onclick="currentDiv(1)">1</button> 
+  <button class="button demo" onclick="currentDiv(2)">2</button> 
+  <button class="button demo" onclick="currentDiv(3)">3</button>
+  <button class="button demo" onclick="currentDiv(4)">4</button>
+  <button class="button demo" onclick="currentDiv(5)">5</button>
+  <button class="button demo" onclick="currentDiv(6)">6</button>
+  <button class="button demo" onclick="currentDiv(7)">7</button>
+  <button class="button demo" onclick="currentDiv(8)">8</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" red", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " red";
+}
+</script>
+  		</section>
+  		<footer class="footer">
+		<center><p id="foot">Copyright 2018 by Nareerat School Phrae<br>โรงเรียนนารีรัตน์จังหวัดแพร่ สังกัดเขตพื้นที่การศึกษามัธยมศึกษาเขต 37<br>[เว็บไซต์นี้แสดงผลได้ดีที่สุดบน Google Chrome]</p>
+  		</footer>
+	</div>
+
+</body>
+
+</html>

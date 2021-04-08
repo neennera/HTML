@@ -1,0 +1,150 @@
+.container {
+  display: grid;
+  grid-template:
+    "header header" 300px
+    "sidebar main" 2300px
+    "footer footer" 100px
+	/300px 900px;
+  grid-gap: 10px;
+  justify-content: center;
+  padding-top: 65px;
+}
+.container_img {
+  display: grid;
+  grid-template:
+    "header header" 300px
+    "main main" 800px
+    "footer footer" 100px
+	/300px 900px;
+  grid-gap: 10px;
+  justify-content: center;
+  padding-top: 65px;
+}
+
+.container > * {
+  padding: 10px;
+}
+
+.header { 
+  background: #F5F5F5; 
+  grid-area: header;
+}
+
+.main { 
+  background: #F5F5F5; 
+  grid-area: main;
+}
+
+.sidebar { 
+  background: #F5F5F5; 
+  grid-area: sidebar;
+}
+
+.footer { 
+  background: #212121; 
+  color : #FFF;
+  grid-area: footer;
+}
+
+.topnav {
+  overflow:hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  display:block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+a {
+  text-decoration:none;
+  color: #FFC400;
+  font-weight:bold;
+}
+a:hover{
+  text-decoration:none;
+  color: #212121;
+  font-weight:bold;
+}
+a#manu {
+  text-decoration:none;
+  color: #7A5547;
+  font-weight:bold;
+}
+a#manu:hover{
+  text-decoration:none;
+  color: #212121;
+  font-weight:bold;
+}
+#sidebar {background-color: #D5B799; 
+	text-align:center; 
+}
+#bar:hover {background-color:white; 
+	text-align:center; 
+} 
+.one{
+	border:3px solid black;
+	border-collapse:collapse;
+	padding:15px;
+	color:gray;
+}
+img,video{border-radius: 25px;}
+#biglink{
+	border-style: dashed;
+	border-padding:5px;
+	border-radius:25px;
+	border-color:black;
+	font-size:25px;
+	background-color:black;
+	padding:10px;
+	width:80%;
+	}
+a#biglink{color:white;}
+p,a {font-family: 'Sarabun';}
+pre{font-family: 'Sarabun';}
+h1,h2,h3 {font-family: 'Kanit';}
+form{font-family: 'Sarabun';
+	font-size:14px;
+		color:#CACACA;}
+#foot { font-family: 'Cordia New'; color:#F5F5F5;}
+
+.wrapForPre {
+     white-space:pre-wrap;
+     word-wrap:break-word;
+}
+span#head{border-left:8px solid #FFC400;
+	font-size:22px;
+	color:#A55200;
+}
+
+.margin{margin-left:auto;
+		margin-right:auto;}
+.button{	border:none;
+			padding:8px 16px;
+			overflow:hidden;
+			text-decoration:none;
+			color:inherit;
+			background-color:inherit;
+			text-align:center;
+			}
+.button:hover{
+			color:#000;
+			background-color:lightgray;}		
+.grey{
+	color:#000;
+	background-color:#f1f1f1;}
+.red{
+    color: #fff;
+    background-color: #f44336;}

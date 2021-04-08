@@ -1,0 +1,70 @@
+<!doctype html>
+<head>
+	<title>กิจกรรมรักษ์โลก</title>
+	<link href="layout.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sarabun&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sarabun&display=swap" rel="stylesheet">
+</head>
+
+<body bgcolor="#FFC400">
+	<div class=""topnav>
+		<a href="home.html" style="float:left;">หน้าแรก</a>
+		<a href="idea.html" style="float:left;">บทความ</a>
+		<a href="map.html" style="float:left;">แผนผังเว็บไซต์</a>
+		<a href="aboutme.html" style="float:left;">ผู้จัดทำ</a>
+		<a href="#top" style="float:right;">top</a>
+		<h3>กิจกรรมรักษ์โลก</h3>
+	</div>
+
+	<div class="container">
+		
+<header class="header">
+	<marquee bgcolor="green">ลองกลับมาถามตัวเอง ว่า คุณปลูกต้นไม้ล่าสุดที่ไหน เมื่อไร
+ที่ไหนก็ได้ ไม่ต้องปลูกในป่า
+ถ้าคุณยังตอบไม่ได้ คุณก็คือส่วนหนึ่งของปัญหาภัยแล้งในปัจจุบัน
+อย่าเสียเวลาไปโทษคนอื่น อย่าไปโทษเพราะคนกลุ่มนั้น เพราะหน่วยงานนั้น
+ขณะนี้แค่หาน้ำไว้ดื่ม น้ำไว้ใช้ตามบ้านเรือนก็อยู่ในเวลาจำกัดแล้ว
+แต่ความจริงแล้ว น้ำไม่ได้หายไป เพียงแค่วงจรน้ำ มันไม่อยู่ในวงจรที่เราเคยชิน
+น้ำ มันไปอยู่ในที่ที่เราไม่สามารถเอามาใช้ประโยชน์ได้เท่านั้นเอง … เท่านั้นเอง….</marquee>
+
+	<img scr="image/header.jpg" width="100%" height="80px">
+	<h1>เว็บไซต์รักษ์โลก</h1>
+</header>
+		
+<aside class="sidebar">
+	<table class="manu" width="100%">
+		<tr><td class="bar"><a href="home.html">หน้าหลัก</a></td></tr>
+		<tr><td class="bar"><a href="idea.html">ไอเดียสิ่งประดิษฐ์</a></td></tr>
+		<tr><td class="bar"><a href="news.html">ข่าวน่าสนใจ</a></td></tr>
+		<tr><td class="bar"><a href="challenge.html">กิจกรรมรักษ์โลก</a></td></tr>
+		<tr><td class="bar"><a href="road.html">จราจรรักษ์โลก</a></td></tr>
+		<tr><td class="bar"><a href="howto.html">วิธีลดโลกร้อน</a></td></tr>
+		<tr><td class="bar"><a href="media.html">สื่อประกอบa></td></tr>
+		<tr><td class="bar"><a href="map.html">แผนผังหน้าเว็บ</a></td></tr>
+		<tr><td class="bar"><a href="aboutme.html">ผู้จัดทำ</a></td></tr>
+	</table>
+	<br><br><hr width="80%"><br><br>
+		<h3>วิดีโอน่าสนใจ</h3>
+	<video scr="VDO/good.mpa" width="80%" type="video/mps4" controls autoplay></video>
+	<br><br><hr width="80%"><br><br>
+	<div style="background: #212121;"><form align="center" type="padding: 10px;">
+		ชื่อ		:<br><input name="v" type="text"></br>
+		G-mail		:<br><input name="v" type="text"></br>
+		Password		:<br><input name="v" type="text"></br>
+		เพศ		:<input name="sex" type="radio" value="0">ชาย<input name="sex" type="radio" value="0">หญิง
+		<center><input name="v" type="submit" value="ตกลง" ></center>
+	</form></div>
+</aside>
+		
+<section class="section">
+
+</section>
+
+<footer class="footer">
+		<br><br><p id="foot">Copyright by Nareerat School Phrae<br>โรงเรียนนารีรัตน์จังหวัดแพร่ สังกัตเขตพื้นที่มัธยมศึกษาเขต37<br>[เว็บไซต์นี้แสดงผลได้ดีที่สุดบน google chrome]</p>
+</footer>
+
+	</div>
+
+</body>
+</html>
